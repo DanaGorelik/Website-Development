@@ -1,0 +1,26 @@
+body {
+    background-color: #E3DFFD;
+    
+}
+hr {
+    
+    border-color: #7c56c3;
+    border-width: 5px;
+    height: 0px;
+    border-style: dotted none none;
+    width: 5%;
+    
+}
+h1 {
+    color: #66BFBF;
+}
+h3 {
+    color:#66BFBF;
+}
+.dana:hover {
+    border: 3px solid #66BFBF;
+    border-radius: 100%;
+}
+#heading {
+    color:#7c56c3;
+}
