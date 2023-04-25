@@ -1,0 +1,20 @@
+<%- include("partials/header"); -%>
+<h1>Home</h1>
+<p name = "homie"><%=HomeText%></p>
+
+<!-- <% console.log(newlistItems); %> -->
+
+<!-- <% newlistItems.forEach(function(item) { %>
+   <% console.log(item.title); %>
+<% }) %> -->
+
+
+
+
+    <%  newlistItems.forEach(function(item) { %>
+        <h1><%=item.title%></h1>    
+          <p><%= item.content.substring(0,100)+"..." %> <a href = "/posts/<%=item.title%>">Read More</a></p>
+      
+ <%   }) %>
+
+<%- include("partials/footer"); -%>
