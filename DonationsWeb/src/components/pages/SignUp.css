@@ -1,0 +1,66 @@
+/* MyForm.css */
+
+/* Form container (div) styles */
+.form-container {
+    background: url('../../../public/images/Kfar\ Aza.JPG') center center/cover no-repeat;
+    padding: 20px; /* Add padding to create space around the form */
+    border-radius: 10px; /* Add rounded corners to the div */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    width: 100%;
+
+  }
+  
+  /* Form styles */
+  form {
+    background-color: white; /* Set the background color of the form to white */
+    padding: 20px; /* Add padding to create space around the form elements */
+    border-radius: 5px; /* Add rounded corners to the form */
+    width: fit-content;
+    margin-top: 20px;
+  }
+  
+  /* Form input elements and button styles */
+  div {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: fit-content;
+  }
+  .form-field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 100px;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
